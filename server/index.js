@@ -8,11 +8,11 @@ import route from "./routes/medicineRoute.js";
 const app = express();
 app.use(bodyParser.json());
 app.use(cors(
-    {
-        origin : ["https://first-aid-kit-handler-api.vercel.app/"],
-        methods : ["POST", "GET"],
-        credentials : true
-    }
+    // {
+    //     origin : ["https://first-aid-kit-handler-api.vercel.app/"],
+    //     methods : ["POST", "GET"],
+    //     credentials : true
+    // }
 ));
 dotenv.config();
 
